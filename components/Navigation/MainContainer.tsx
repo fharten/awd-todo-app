@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Heading, Box, Badge } from '@chakra-ui/react';
+import { Container, Heading, Box } from '@chakra-ui/react';
 
 export default function MainContainer({
   mainTitle,

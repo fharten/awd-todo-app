@@ -1,6 +1,5 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
-import { Task } from './types/tasks';
 import { TaskStore } from './types/store';
 
 export const useTaskStore = create<TaskStore>()(
