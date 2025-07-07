@@ -1,10 +1,10 @@
 import randomItem from './utils/utils';
 import { test, expect } from '@playwright/test';
 
-// test.beforeEach(async ({ page }) => {
-//   await page.goto('https://tasktango.vercel.app/');
-//   await expect(page).toHaveTitle('TaskTango - Home Page');
-// });
+test.beforeEach(async ({ page }) => {
+  await page.goto('https://tasktango.vercel.app/');
+  await expect(page).toHaveTitle('TaskTango - Home Page');
+});
 
 test.describe('New Todo', () => {
   test('Add a task and verify it appears in the list', async ({ page }) => {

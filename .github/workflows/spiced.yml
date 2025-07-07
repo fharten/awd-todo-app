@@ -4,6 +4,6 @@ run-name: ${{ github.actor }} Hello Spiced!
 on: [push]
 jobs:
   hello-testbash:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - run: echo "Hello Spiced!"
